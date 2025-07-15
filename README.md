@@ -204,5 +204,3 @@ Server runs on `http://localhost:5000` by default.
 ## 🤝 Contributing
 Pull requests welcome! Please open an issue first to discuss major changes.
 
-## 📝 License
-[MIT](LICENSE) (or specify your license)
