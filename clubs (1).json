@@ -1,0 +1,567 @@
+{
+  "clubs": [
+    {
+      "id": 1,
+      "name": "Red Cross",
+      "description": "Dedicated to humanitarian service and first aid training",
+      "members": 150,
+      "founded": 2015,
+      "category": "Humanitarian",
+      "tags": ["Community Service", "First Aid", "Health"],
+      "image": "../../assets/logos/redcross.png",
+      "leadership": [
+        {
+          "name": "Travis Madzikura",
+          "role": "President",
+          "program": "Business Management",
+          "level": "2.2",
+          "contact": {
+            "phone": "0777234082",
+            "email": "madzikuratravis129@gmail.com"
+          }
+        },
+        {
+          "name": "Trinity R Mukwee",
+          "role": "Vice Secretary",
+          "program": "Industrial Sociology",
+          "level": "1.2",
+          "contact": {
+            "phone": "0788101233",
+            "email": "trinityrumbidzaimukwee@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "redcross@clubs.msu.ac.zw",
+        "whatsapp": "+263 777234082",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Environmental Society",
+      "description": "Promoting environmental awareness and sustainability",
+      "members": 120,
+      "founded": 2016,
+      "category": "Academic",
+      "tags": ["Environment", "Sustainability", "Conservation"],
+      "image": "/images/clubs/environmental.jpg",
+      "leadership": [
+        {
+          "name": "Tarisai Chinawa",
+          "role": "President",
+          "program": "Geography and Environmental Sustainability",
+          "level": "4.2",
+          "contact": {
+            "phone": "0783500419",
+            "email": "tariechinawa@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "environmental@clubs.msu.ac.zw",
+        "whatsapp": "+263 783500419",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "ZTF (Zimbabwe Teaching Fellowship)",
+      "description": "Empowering future educators and promoting teaching excellence",
+      "members": 85,
+      "founded": 2017,
+      "category": "Academic",
+      "tags": ["Education", "Teaching", "Leadership"],
+      "image": "/images/clubs/ztf.jpg",
+      "leadership": [
+        {
+          "name": "Benkosi Mpofu",
+          "role": "President",
+          "program": "Law",
+          "level": "2.1",
+          "contact": {
+            "phone": "0774134338",
+            "email": "mpofub2004@mail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "ztf@clubs.msu.ac.zw",
+        "whatsapp": "+263 774134338",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Peer Counselors",
+      "description": "Supporting student mental health and well-being through peer counseling",
+      "members": 60,
+      "founded": 2018,
+      "category": "Support",
+      "tags": ["Mental Health", "Counseling", "Support"],
+      "image": "/images/clubs/peer-counselors.jpg",
+      "leadership": [
+        {
+          "name": "Hazel Mukwedeya",
+          "role": "President",
+          "program": "Applied Psychology",
+          "level": "2.2",
+          "contact": {
+            "phone": "0714445586",
+            "email": "r242825t@students.msu.ac.zw"
+          }
+        }
+      ],
+      "contact": {
+        "email": "peercounselors@clubs.msu.ac.zw",
+        "whatsapp": "+263 714445586",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Enactus MSU",
+      "description": "Entrepreneurial action for sustainable community impact",
+      "members": 95,
+      "founded": 2016,
+      "category": "Business",
+      "tags": ["Entrepreneurship", "Innovation", "Community Development"],
+      "image": "../../assets/logos/enactus.jpg",
+      "leadership": [
+        {
+          "name": "Rumbidzai Matongo",
+          "role": "Team Lead",
+          "program": "Logistics and Supply Chain Management",
+          "contact": {
+            "phone": "0789911223",
+            "email": "rumbieyfaith@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "enactus@clubs.msu.ac.zw",
+        "whatsapp": "+263 789911223",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "ZIMSA (Zimbabwe Medical Students Association)",
+      "description": "Uniting medical students for professional development and healthcare advocacy",
+      "members": 150,
+      "founded": 2015,
+      "category": "Academic",
+      "tags": ["Medical", "Healthcare", "Professional"],
+      "image": "/images/clubs/zimsa.jpg",
+      "leadership": [
+        {
+          "name": "Madechihwe Munashe B",
+          "role": "President",
+          "program": "Medicine",
+          "level": "3.1",
+          "contact": {
+            "phone": "0775802816",
+            "email": "munashebrendonmadechihwe@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "zimsa@clubs.msu.ac.zw",
+        "whatsapp": "+263 775802816",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "MSU Theatre Arts",
+      "description": "Promoting performing arts and cultural expression",
+      "members": 75,
+      "founded": 2017,
+      "category": "Arts",
+      "tags": ["Theatre", "Performance", "Culture"],
+      "image": "/images/clubs/theatre.jpg",
+      "leadership": [
+        {
+          "name": "Tanyaradzwa Rwambiwa",
+          "role": "Vice President",
+          "program": "Sociology and Social Policy",
+          "level": "2.2",
+          "contact": {
+            "phone": "0779883414",
+            "email": "rwambiwatanya@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "theatre@clubs.msu.ac.zw",
+        "whatsapp": "+263 779883414",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "instagram", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Rotaract Club",
+      "description": "Youth leadership and community service organization dedicated to positive change",
+      "members": 80,
+      "founded": 2016,
+      "category": "Service",
+      "tags": ["Leadership", "Community Service", "Youth Development"],
+      "image": "/images/clubs/rotaract.jpg",
+      "leadership": [
+        {
+          "name": "Nyasha Queeneth Paradza",
+          "role": "President",
+          "program": "Applied Psychology",
+          "level": "2.2",
+          "contact": {
+            "phone": "0717639393",
+            "email": "r239008j@students.msu.ac.zw"
+          }
+        },
+        {
+          "name": "Tadiwa Quintin Mutemarenga",
+          "role": "Vice President",
+          "program": "Sociology and Social Policy",
+          "level": "2.1",
+          "contact": {
+            "phone": "0736306612",
+            "email": "tanmutema@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "rotaract@clubs.msu.ac.zw",
+        "whatsapp": "+263 717639393",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "instagram", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "SEDS (Students for the Exploration and Development of Space)",
+      "description": "Promoting space science, exploration and development among students",
+      "members": 65,
+      "founded": 2019,
+      "category": "Academic",
+      "tags": ["Space", "Science", "Technology"],
+      "image": "/images/clubs/seds.jpg",
+      "leadership": [
+        {
+          "name": "Dorcas Munzvenga",
+          "role": "President",
+          "program": "Geomatics",
+          "level": "2.2",
+          "contact": {
+            "phone": "0781868281",
+            "email": "munzvengat4@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "seds@clubs.msu.ac.zw",
+        "whatsapp": "+263 781868281"
+      }
+    },
+    {
+      "id": 10,
+      "name": "MSU CAMA CLUB",
+      "description": "Connecting and empowering students in marketing and advertising",
+      "members": 90,
+      "founded": 2017,
+      "category": "Professional",
+      "tags": ["Marketing", "Advertising", "Business"],
+      "image": "/images/clubs/cama.jpg",
+      "leadership": [
+        {
+          "name": "Alice Muchara",
+          "role": "Chairperson",
+          "program": "Human Resource Management",
+          "level": "1.2",
+          "contact": {
+            "phone": "0774984880",
+            "email": "alicemuchara307@gmail.com"
+          }
+        },
+        {
+          "name": "Olivia Rugare",
+          "role": "Vice Chairperson",
+          "program": "Development Studies",
+          "level": "4.2",
+          "contact": {
+            "phone": "0773943315",
+            "email": "oliviarugare1@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "camaclub@clubs.msu.ac.zw",
+        "whatsapp": "+263 774984880",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "instagram", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "MSU Innovation and Research Club",
+      "description": "Fostering innovation and research culture among students",
+      "members": 70,
+      "founded": 2020,
+      "category": "Academic",
+      "tags": ["Innovation", "Research", "Technology"],
+      "image": "/images/clubs/innovation.jpg",
+      "leadership": [
+        {
+          "name": "Bartholomeo O. S Gambiza",
+          "role": "President",
+          "program": "Sociology and Social Policy",
+          "level": "2.1",
+          "contact": {
+            "phone": "263782221440",
+            "email": "r241901p@students.msu.ac.zw"
+          }
+        }
+      ],
+      "contact": {
+        "email": "innovation@clubs.msu.ac.zw",
+        "whatsapp": "+263 782221440",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "linkedin", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "YoungLife University",
+      "description": "Building meaningful connections and spiritual growth",
+      "members": 85,
+      "founded": 2018,
+      "category": "Religious",
+      "tags": ["Faith", "Community", "Leadership"],
+      "image": "/images/clubs/younglife.jpg",
+      "leadership": [
+        {
+          "name": "Minenhle Ndlovu",
+          "role": "President",
+          "program": "Business Management",
+          "level": "4.2",
+          "contact": {
+            "phone": "0786804766",
+            "email": "minenhle2001@gmail.com"
+          }
+        },
+        {
+          "name": "Princess A Adrias",
+          "role": "Secretary General",
+          "program": "Logistics and Supply Chain",
+          "level": "1.2",
+          "contact": {
+            "phone": "0712101949",
+            "email": "adriasadrils@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "younglife@clubs.msu.ac.zw",
+        "whatsapp": "+263 786804766",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "instagram", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "MSU Marketers Association",
+      "description": "Developing future marketing leaders and professionals",
+      "members": 110,
+      "founded": 2016,
+      "category": "Professional",
+      "tags": ["Marketing", "Business", "Networking"],
+      "image": "/images/clubs/marketers.jpg",
+      "leadership": [
+        {
+          "name": "Chifadza Bernard",
+          "role": "Vice President",
+          "program": "Law",
+          "level": "3.1",
+          "contact": {
+            "phone": "0713513110",
+            "email": "bernardchifadza@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "marketers@clubs.msu.ac.zw",
+        "whatsapp": "+263 713513110",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "linkedin", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "MSU Tourism Association (MSUTA)",
+      "description": "Promoting tourism and hospitality excellence",
+      "members": 95,
+      "founded": 2017,
+      "category": "Professional",
+      "tags": ["Tourism", "Hospitality", "Events"],
+      "image": "/images/clubs/tourism.jpg",
+      "leadership": [
+        {
+          "name": "Vimbai Mitchelle Mlacha",
+          "role": "President",
+          "program": "Tourism and Hospitality Management",
+          "level": "4.1",
+          "contact": {
+            "phone": "0778105577",
+            "email": "vimbaimitchelle31@gmail.com"
+          }
+        },
+        {
+          "name": "Takunda Maureen Bengesa",
+          "role": "Vice President",
+          "program": "Tourism and Hospitality Management",
+          "level": "2.1",
+          "contact": {
+            "phone": "0714874738",
+            "email": "bengesatakunda@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "msuta@clubs.msu.ac.zw",
+        "whatsapp": "+263 778105577",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "instagram", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Toastmasters MSU",
+      "description": "Developing public speaking and leadership skills",
+      "members": 55,
+      "founded": 2018,
+      "category": "Professional Development",
+      "tags": ["Public Speaking", "Leadership", "Communication"],
+      "image": "/images/clubs/toastmasters.jpg",
+      "leadership": [
+        {
+          "name": "Munashe Nathan Chinake",
+          "role": "President",
+          "program": "Law",
+          "level": "3.1",
+          "contact": {
+            "phone": "0782984515",
+            "email": "chinakemunashe29@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "toastmasters@clubs.msu.ac.zw",
+        "whatsapp": "+263 782984515",
+        "socialLinks": [
+          { "platform": "facebook", "link": "#" },
+          { "platform": "linkedin", "link": "#" }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Data Science Zimbabwe MSU Chapter",
+      "description": "Fostering data science skills and promoting innovative solutions through data analytics",
+      "members": 85,
+      "founded": 2022,
+      "category": "Academic",
+      "tags": ["Data Science", "Analytics", "Technology", "Programming"],
+      "image": "../../assets/logos/dsz.jpg",
+      "leadership": [
+        {
+          "name": "Bright Bunhu",
+          "role": "President",
+          "program": "Data Science And Informatics",
+          "contact": {
+            "phone": "0737757995",
+            "email": "brightbunhu4@gmail.com"
+          }
+        },
+        {
+          "name": "Salody Shumba",
+          "role": "Vice President",
+          "program": "Bio Informatics",
+          "contact": {
+            "phone": "0722322739",
+            "email": "Salodyhumba@gmail.com"
+          }
+        },
+        {
+          "name": "Evans Kalulu",
+          "role": "V-Secretary",
+          "program": "Data Science And Informatics",
+          "contact": {
+            "phone": "0786337034",
+            "email": "evanskalulu@gmail.com"
+          }
+        },
+        {
+          "name": "Kenias Shumba",
+          "role": "Treasurer",
+          "program": "Data Science and Informatics",
+          "contact": {
+            "phone": "0779942535",
+            "email": "shumbakenias30@gmail.com"
+          }
+        },
+        {
+          "name": "Bleigh Tafadzwa J Bande",
+          "role": "Head Developer",
+          "program": "Telecommunication Engineering",
+          "level": "2.1",
+          "contact": {
+            "phone": "263714604268",
+            "email": "bleightjbande@gmail.com"
+          }
+        }
+      ],
+      "contact": {
+        "email": "datascience@clubs.msu.ac.zw",
+        "whatsapp": "+263 737757995",
+        "socialLinks": [
+          { "platform": "github", "link": "#" },
+          { "platform": "linkedin", "link": "#" },
+          { "platform": "twitter", "link": "#" }
+        ]
+      }
+    }
+  ]
+} 

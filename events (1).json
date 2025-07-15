@@ -1,0 +1,255 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "First Aid Training Workshop",
+      "date": "2024-03-25",
+      "time": "14:00",
+      "location": "Main Hall",
+      "club": "Red Cross",
+      "description": "Comprehensive first aid training session for beginners and intermediate levels",
+      "image": "/images/events/first-aid.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-03-24",
+        "maxParticipants": 50,
+        "currentParticipants": 25
+      }
+    },
+    {
+      "id": 2,
+      "title": "Environmental Awareness Campaign",
+      "date": "2024-03-28",
+      "time": "09:00",
+      "location": "Campus Grounds",
+      "club": "Environmental Society",
+      "description": "Campus-wide cleanup and environmental awareness campaign",
+      "image": "/images/events/environment.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-03-27",
+        "maxParticipants": 100,
+        "currentParticipants": 45
+      }
+    },
+    {
+      "id": 3,
+      "title": "Teaching Methods Workshop",
+      "date": "2024-04-05",
+      "time": "10:00",
+      "location": "Room 201",
+      "club": "ZTF (Zimbabwe Teaching Fellowship)",
+      "description": "Modern teaching methods and classroom management techniques",
+      "image": "/images/events/teaching.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-04",
+        "maxParticipants": 40,
+        "currentParticipants": 15
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mental Health Awareness Day",
+      "date": "2024-02-15",
+      "time": "All Day",
+      "location": "Student Center",
+      "club": "Peer Counselors",
+      "description": "A day dedicated to mental health awareness and support",
+      "image": "/images/events/mental-health.jpg",
+      "type": "past",
+      "gallery": [
+        "/images/gallery/mh-1.jpg",
+        "/images/gallery/mh-2.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "ZIMSA Medical Conference",
+      "date": "2024-04-15",
+      "time": "09:00",
+      "location": "Medical School Auditorium",
+      "club": "ZIMSA",
+      "description": "Annual medical students conference featuring guest speakers and research presentations",
+      "image": "/images/events/medical-conference.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-10",
+        "maxParticipants": 200,
+        "currentParticipants": 150
+      }
+    },
+    {
+      "id": 6,
+      "title": "Theatre Arts Showcase",
+      "date": "2024-04-20",
+      "time": "18:00",
+      "location": "Main Theatre",
+      "club": "MSU Theatre Arts",
+      "description": "Annual showcase featuring original performances by our talented members",
+      "image": "/images/events/theatre-showcase.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-19",
+        "maxParticipants": 300,
+        "currentParticipants": 180
+      }
+    },
+    {
+      "id": 7,
+      "title": "Data Science Hackathon 2024",
+      "date": "2024-04-12",
+      "time": "09:00",
+      "location": "Innovation Hub",
+      "club": "Data Science Zimbabwe MSU Chapter",
+      "description": "48-hour hackathon focused on solving real-world problems using data science and machine learning",
+      "image": "/images/events/hackathon.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-10",
+        "maxParticipants": 100,
+        "currentParticipants": 45,
+        "requirements": ["Laptop", "Basic Python Knowledge"]
+      }
+    },
+    {
+      "id": 8,
+      "title": "Python Workshop Series",
+      "date": "2024-03-15",
+      "time": "14:00",
+      "location": "Computer Lab 3",
+      "club": "Data Science Zimbabwe MSU Chapter",
+      "description": "Introduction to Python programming for data science",
+      "image": "/images/events/python-workshop.jpg",
+      "type": "past",
+      "gallery": [
+        "/images/gallery/python-1.jpg",
+        "/images/gallery/python-2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tourism Career Fair",
+      "date": "2024-05-01",
+      "time": "10:00",
+      "location": "Great Hall",
+      "club": "MSU Tourism Association",
+      "description": "Connect with leading companies in the tourism and hospitality industry",
+      "image": "/images/events/career-fair.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-30",
+        "maxParticipants": 300,
+        "currentParticipants": 150
+      }
+    },
+    {
+      "id": 10,
+      "title": "Public Speaking Competition",
+      "date": "2024-02-28",
+      "time": "13:00",
+      "location": "Amphitheatre",
+      "club": "Toastmasters MSU",
+      "description": "Annual public speaking competition showcasing student talent",
+      "image": "/images/events/speaking.jpg",
+      "type": "past",
+      "gallery": [
+        "/images/gallery/speaking-1.jpg",
+        "/images/gallery/speaking-2.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Medical Students Conference",
+      "date": "2024-04-25",
+      "time": "08:00",
+      "location": "Medical School",
+      "club": "ZIMSA",
+      "description": "Annual conference featuring research presentations and guest speakers",
+      "image": "/images/events/medical-conf.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-20",
+        "maxParticipants": 200,
+        "currentParticipants": 120
+      }
+    },
+    {
+      "id": 12,
+      "title": "Community Outreach Program",
+      "date": "2024-02-10",
+      "time": "09:00",
+      "location": "Senga Community",
+      "club": "Rotaract Club",
+      "description": "Community service and youth development program",
+      "image": "/images/events/outreach.jpg",
+      "type": "past",
+      "gallery": [
+        "/images/gallery/outreach-1.jpg",
+        "/images/gallery/outreach-2.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Innovation Showcase",
+      "date": "2024-05-15",
+      "time": "10:00",
+      "location": "Innovation Hub",
+      "club": "MSU Innovation and Research Club",
+      "description": "Showcase of student innovations and research projects",
+      "image": "/images/events/innovation.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-05-10",
+        "maxParticipants": 150,
+        "currentParticipants": 75
+      }
+    },
+    {
+      "id": 14,
+      "title": "Marketing Masterclass",
+      "date": "2024-02-20",
+      "time": "14:00",
+      "location": "Room 101",
+      "club": "MSU Marketers Association",
+      "description": "Digital marketing strategies workshop with industry experts",
+      "image": "/images/events/marketing.jpg",
+      "type": "past",
+      "gallery": [
+        "/images/gallery/marketing-1.jpg",
+        "/images/gallery/marketing-2.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Space Science Exhibition",
+      "date": "2024-04-30",
+      "time": "11:00",
+      "location": "Physics Building",
+      "club": "SEDS",
+      "description": "Exhibition of space science projects and astronomical observations",
+      "image": "/images/events/space.jpg",
+      "type": "upcoming",
+      "registration": {
+        "deadline": "2024-04-28",
+        "maxParticipants": 200,
+        "currentParticipants": 85
+      }
+    },
+    {
+      "id": 16,
+      "title": "Drama Festival",
+      "date": "2024-02-25",
+      "time": "18:00",
+      "location": "Main Theatre",
+      "club": "MSU Theatre Arts",
+      "description": "Annual drama festival featuring original student productions",
+      "image": "/images/events/drama.jpg",
+      "type": "past",
+      "gallery": [
+        "/images/gallery/drama-1.jpg",
+        "/images/gallery/drama-2.jpg"
+      ]
+    }
+  ]
+} 

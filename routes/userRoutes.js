@@ -1,15 +1,21 @@
-import express from "express";
-import {createUser, loginUser, logoutCurrentUser, getAllUsers, upload, assignRole, removeRole} from '../controllers/userController.js'
-import { authenticate, authorizeRoles } from "../middlewares/authmiddleware.js";
+import express from 'express';
+const router = express.Router();
+import { registerUser, loginUser, promoteUser, demoteUser, logoutUser } from '../controllers/userController.js';
+import upload from '../middlewares/upload.js';
+import asyncHandler from '../middlewares/asyncHandler.js';
+import { protect } from '../middlewares/authmiddleware.js';
 
-const router = express.Router()
+// Register route (with profile picture upload)
+router.post('/register', upload.single('profilePicture'), asyncHandler(registerUser));
 
-router.route('/')
-  .post(upload.single('profilePicture'), createUser)
-  .get(authenticate, authorizeRoles('admin', 'sto', 'patron'), getAllUsers );
-router.post("/auth",loginUser);
-router.post("/logout", logoutCurrentUser)
-router.post('/assign-role', authenticate, authorizeRoles('admin', 'sto', 'patron'), assignRole);
-router.post('/remove-role', authenticate, authorizeRoles('admin', 'sto', 'patron'), removeRole);
+// Login route
+router.post('/login', asyncHandler(loginUser));
+
+// Logout route
+router.post('/logout', asyncHandler(logoutUser));
+
+// Role management
+router.post('/promote', protect, asyncHandler(promoteUser));
+router.post('/demote', protect, asyncHandler(demoteUser));
 
 export default router;

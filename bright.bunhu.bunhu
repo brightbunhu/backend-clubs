@@ -1,0 +1,41 @@
+
+// Helper to generate regnumber
+function generateRegNumber() {
+  const year = new Date().getFullYear().toString().slice(-2); // last 2 digits of year
+  const digits = Math.floor(1000 + Math.random() * 9000); // 4 random digits
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const letter = letters[Math.floor(Math.random() * letters.length)];
+  return `R${year}${digits}${letter}`;
+}
+
+const userSchema = new mongoose.Schema({
+  regnumber: {
+    type: String,
+    unique: true,
+    default: generateRegNumber,
+  },
+  name: { type: String, required: true },
+  surname: { type: String, required: true },
+  email: { 
+    type: String, 
+    required: true, 
+    unique: true, 
+    match: [/\S+@\S+\.\S+/, 'is invalid'],
+  },
+  password: { type: String, required: true },
+  dob: { type: Date, required: true },
+});
+
+// Optionally, regenerate regnumber if duplicate (rare but possible)
+userSchema.pre('save', async function(next) {
+  if (this.isNew) {
+    let exists = await mongoose.models.User.findOne({ regnumber: this.regnumber });
+    while (exists) {
+      this.regnumber = generateRegNumber();
+      exists = await mongoose.models.User.findOne({ regnumber: this.regnumber });
+    }
+  }
+  next();
+});
+
+const User = mongoose.model("User", userSchema);
